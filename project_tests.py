@@ -94,7 +94,7 @@ def test_bd_model(bd_model):
 
 
 def test_model_final(model_final):
-    input_shape = (137861, 15)
+    input_shape = (137861, 21)
     output_sequence_length = 21
     english_vocab_size = 199
     french_vocab_size = 344
